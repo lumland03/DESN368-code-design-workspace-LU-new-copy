@@ -42,8 +42,8 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 *Update these links as you complete each tool setup:*
 - **GitHub:** [github.com/lumland03/] ⏳
 - **Workspace (Forked Repo):** [github.com/lumland03/DESN368-code-design-workspace] ⏳
-- **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **Figma:** [Lumland03] ⏳
+- **CodePen:** [(https://codepen.io/lumland03)] ⏳
 - **GitHub Student Pack:** [Confirm approval status here] ⏳  
 
 ### **How to Update Your Toolkit:**
