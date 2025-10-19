@@ -11,6 +11,6 @@ Submit your completed CodePen links below:
 2. 02-class-id-selectors: [https://codepen.io/lumland03/pen/ZYQvZXQ]
 3. 03-grouping-selectors: [https://codepen.io/lumland03/pen/vELpMjr]
 4. 04-chaining-selectors: [https://codepen.io/lumland03/pen/azdExRy]
-5. 05-descendant-combinator: [Your CodePen link here]
+5. 05-descendant-combinator: [https://codepen.io/lumland03/pen/LEGevqd]
 
 **Cascade Exercise:** 6. 01-cascade-fix: [Your CodePen link here]
