@@ -25,7 +25,10 @@ The Internet is a physical thing, and not just a cloud based system.
 Browsers are like traffic highways that transfer requests to different browsers/IP addresses.
 
 **Files:**
-- [Link to specific files or note what's in the week-1 folder]
+- Newspaper practice html
+- Lost pet practice html
+- favorite band practice html
+
 
 ---
 
@@ -44,7 +47,7 @@ Its a lot to remember.
 -Created simple web pages based off of codedex exercises. 
 
 **Files:**
-- [Link to specific files or note what's in the week-2 folder]
+- recipe site with css style sheet
 
 ---
 
@@ -66,7 +69,7 @@ There is a huge amount of different stuff to remember.
 - Completed a semantics challenge
 
 **Files:**
-- [Link to specific files or note what's in the week-3 folder]
+- wk3 css-foundations-lvl-1
 
 ---
 
@@ -78,7 +81,7 @@ There is a huge amount of different stuff to remember.
 - Markdown formatting
 
 **Key Takeaways:**
-[Write 1-2 sentences about what you learned]
+Learned how to clean up the repository, and got a bit more comfortable with github.
 
 **Tasks Completed:**
 - ✓ Organized repo with week folders
