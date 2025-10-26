@@ -1,0 +1,178 @@
+
+.josefin-sans{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.josefin-sans-bold{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.koh-santepheap-thin {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.koh-santepheap-light {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.koh-santepheap-regular {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.koh-santepheap-bold {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.koh-santepheap-black {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+img{
+    display: block;
+    align-self: center;
+    width: 688px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: -970px;
+    margin-bottom: 20px;
+    border: #FFFFFF 12px solid; 
+    border-bottom: #ffffff 45px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+   
+}
+figcaption{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 35px;
+    margin-top: -52px;   
+}
+body{
+    background-color: #2E3138
+}
+header, .main-content {
+    box-sizing: border-box;
+    max-width: 100%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    display: block;
+    background-color: #63C2C5;
+    width:100%;
+    padding: 20px;
+    padding-bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    font-family: "Koh Santepheap", "Times New Roman", serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    margin: 10px;
+     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    margin: -10px;
+     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h3.dates{
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;    
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 1.5;
+}
+.main-content{
+    display: block;
+    background-color: #d9d9d9;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+}
+.main-content p{
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.quote{
+    display: block;
+    background-color: #63C2C5;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: "Koh Santepheap", serif;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+footer{
+    display: block;
+    background-color: #63C2C5;
+    width: 40%;
+    margin: 30px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+    text-align: left;
+
+}

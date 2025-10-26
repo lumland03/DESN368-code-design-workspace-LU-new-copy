@@ -79,6 +79,7 @@ There is a huge amount of different stuff to remember.
 - Repository organization
 - Writing effective documentation
 - Markdown formatting
+- Created tribute page html and css
 
 **Key Takeaways:**
 Learned how to clean up the repository, and got a bit more comfortable with github.
