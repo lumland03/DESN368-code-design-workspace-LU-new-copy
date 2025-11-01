@@ -91,6 +91,14 @@ Learned how to clean up the repository, and got a bit more comfortable with gith
 
 ---
 
+## Project 1: Tribute Page
+
+**Subject:** Keanu Reeves
+
+**Links:**
+- https://www.figma.com/design/I3J82KnHY3ZYk62PDFY18I/tribute-keanu-reeves-LU-f25?node-id=0-1&p=f&t=C3EATZvSDDrxvpl7-0
+- https://lumland03.github.io/DESN368-code-design-workspace-lu/week-4/tribute-page/tribute-page-umland.html
+
 ## Resources
 
 - [Link to course materials]
