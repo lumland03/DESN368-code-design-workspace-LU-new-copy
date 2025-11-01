@@ -112,6 +112,6 @@ Learned how to clean up the repository, and got a bit more comfortable with gith
 - GitHub
 - [Other tools]
 
----
+--- 
 
 *This repository is part of my coursework for DESN368 - Web Design 1*
