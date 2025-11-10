@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.gudea-regular {
+  font-family: "Gudea", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gudea-bold {
+  font-family: "Gudea", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gudea-regular-italic {
+  font-family: "Gudea", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+
+/* main content styles */
+
+
+}
+body{
+    line-height: 1.6;
+    background-color:#223843;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    min-height: calc(100vh - 200px);
+    
+   
+}
+.content{
+    flex: 1;
+    padding: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 15%;
+    padding: 25px;
+    background: #dd5858;
+    max-height: 100vh;
+    box-shadow: 8px 0px 8px 0 rgba(0, 0, 0, 0.5), 6px 0px 30px 0 rgba(0, 0, 0, 0.5);
+}
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+
+
+/* Sidebar styles */
+
+h1{
+    margin-bottom: px;
+    font-size: 48px;
+    font-family: "Bungee", sans-serif;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: "Gudea", sans-serif;
+    padding: 10px;
+}
+.header{
+    font-size: 32px;
+    font-family: "Bungee", sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: "Gudea", sans-serif;
+    width: 50%;
+}
+section{
+    margin-bottom: 40px;
+    background-color: #E8EFFF;
+    margin: 20px 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*list styles */
+
+
+
+ul {
+  padding-inline-start: 30px; 
+  color:black;
+}
+li{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 26px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: "Gudea", sans-serif;
+    color:black;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navigation {
+    padding-inline-start: 5px;
+    list-style-type: none;
+ 
+}
+ a {
+  text-decoration: none;
+  color: white;
+ }
+
+
+
+/* footer and button styles */
+
+
+
+#copyright {
+    text-align: center;
+    padding: 10px;
+    font-family: "Gudea", sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+
+}
+button{
+    justify-content: center;
+    background-color: #DD5858;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: "Gudea", sans-serif;
+}
+.action{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+
+/* Decoration */
+
+.deco {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.15;
+  width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+}
+#deco-7{
+  top: 10%;
+  left: 50%;
+}
+
+
+
+
+
+
+                /* mobile styles */
+
+
+
+
+.mobile-header {
+  display: none;
+}
+.close-btn {
+  display: none;
+}
+.sidebar-toggle {
+  display: none;
+}
+
+.mobile-header {
+  background: #DD5858;
+  color: white;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+}
+.mobile-header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+} 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0.5rem;
+  
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  align-items: end;
+
+}
+@media (max-width: 640px) {
+  .mobile-header {
+    display: flex;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+  }
+  #test{
+    text-align: right;
+    font-family: "Bungee", sans-serif;
+    font-size: 32px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 20%;
+    margin-top: 20px;
+  }
+  .header {                                   /*header for dropdown */
+    font-size: 32px;
+    text-align: center;
+    padding: auto;
+    padding-top: 4.5%;
+    margin-top: -5%;
+    
+  }
+  label.hamburger {
+    margin-left: auto;
+    margin-bottom: 5px;
+  }
+  /* Stack layout vertically on mobile */
+  .container {
+    flex-direction: column;
+  }
+  p{
+    width: 100%;
+  }
+  h1 {
+    font-size: 32px;
+    text-align: left;
+    
+  }
+  /* Hide sidebar off-screen on mobile */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    height: fit-content;
+    
+    width: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;  
+  }
+  /* Show close button in mobile sidebar */
+  .close-btn {
+    display: block;
+    position: absolute;
+    right: 2.3rem;
+    top: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* When checkbox is checked, slide sidebar in */
+  .sidebar-toggle:checked ~ .sidebar {
+    transform: translateY(0);
+  } 
+  footer{
+    min-width: fit-content;
+    margin: 10%;
+  }
+}
