@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /*
+  outline: 5px;
+  outline-color: black;
+  outline-style: solid; */
 }
 .bungee-regular {
   font-family: "Bungee", sans-serif;
@@ -64,12 +68,17 @@ body{
     max-width: 100%;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 15%;
+    flex-basis: 20%;
     padding: 25px;
     background: #dd5858;
     max-height: 100vh;
     box-shadow: 8px 0px 8px 0 rgba(0, 0, 0, 0.5), 6px 0px 30px 0 rgba(0, 0, 0, 0.5);
 }
+.sidebar li{
+  padding-bottom: 30px;
+}
+
+
 .sidebar a:hover {
   background: rgba(255, 255, 255, 0.1);
   margin: auto;
@@ -108,12 +117,14 @@ p{
     line-height: 1.6;
     margin-bottom: 15px;
     padding: 10px;
+    margin-right: 0px;
     font-family: "Gudea", sans-serif;
-    width: 50%;
+    width: 60%;
 }
 section{
+    position: relative;
     margin-bottom: 40px;
-    background-color: #E8EFFF;
+    background-color: #ADCAD6;
     margin: 20px 0;
     margin-right: 10%;
     margin-left: 10%;
@@ -122,10 +133,22 @@ section{
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.5);
 }
+.pcon{
+  display: flex;
+  margin: 0px;
+  justify-content: flex-start;
+  gap: 100px;
+  
+}
+pre code{
+white-space: pre-wrap;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
 
 
 
-/*list styles */
+/*list styles*/
 
 
 
@@ -178,8 +201,6 @@ footer {
     border-radius: 5px;
     margin-left: 40%;
     margin-right: 40%;
-    
-
 }
 button{
     justify-content: center;
@@ -200,6 +221,12 @@ button{
     margin-top: 20px;
     
 }
+.snippet{
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
 
 
 
@@ -208,16 +235,55 @@ button{
 .deco {
   position: absolute;
   pointer-events: none;
-  opacity: 0.15;
-  width: 150px;
+  opacity: .30;
+  width: auto;
   height: auto;
-  filter: grayscale(100%);
+  z-index: 0;
 }
 #deco-7{
-  top: 10%;
-  left: 50%;
+  top: 70%;
+  left: 35%;
+  z-index: 1000;
+  opacity: 1;
+  
+}
+#deco-1{
+  top: 50%;
+  right: 20%;
+ 
+}
+#deco-2{
+  top: 30%;
+  right: 20%;
+  
+ 
 }
 
+#deco-3{
+  bottom: 50%;
+  right: 20%;
+  
+  
+}
+
+#deco-4{
+  bottom: 50%;
+  right: 20%;
+ 
+  
+}
+#deco-5{
+  bottom: 50%;
+  right: 20%;
+  
+  
+}
+#deco-6{
+  bottom: 30%;
+  right: 20%;
+ 
+
+}
 
 
 
@@ -280,12 +346,12 @@ button{
     
   }
   #test{
-    text-align: right;
+    text-align: center;
     font-family: "Bungee", sans-serif;
     font-size: 32px;
     padding-top: 0;
-    padding-right: 0;
-    padding-left: 20%;
+    padding-right: auto;
+    padding-left: 15%;
     margin-top: 20px;
   }
   .header {                                   /*header for dropdown */
@@ -295,6 +361,15 @@ button{
     padding-top: 4.5%;
     margin-top: -5%;
     
+  }
+  .pcon{
+    flex-direction: column;
+    gap: 20px;
+  }
+  pre code{
+    margin: auto;
+    padding: auto;
+    margin-left: 10%;
   }
   label.hamburger {
     margin-left: auto;
@@ -311,6 +386,9 @@ button{
     font-size: 32px;
     text-align: left;
     
+  }
+  .deco{
+    display: none;
   }
   /* Hide sidebar off-screen on mobile */
   .sidebar {
@@ -346,3 +424,16 @@ button{
     margin: 10%;
   }
 }
+
+/*
+
+https://snipboard.io/Riv3Me.jpg - bomber -
+https://snipboard.io/MnSYRk.jpg - fire -
+https://snipboard.io/TMnDJl.jpg arrpw -
+https://snipboard.io/JzOZ2Q.jpg gnorp - 
+https://snipboard.io/B2FZ79.jpg rifle
+https://snipboard.io/BctiuL.jpg runner -
+https://snipboard.io/tX8Li2.jpg ballooon
+
+
+*/
