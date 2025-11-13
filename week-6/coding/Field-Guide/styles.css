@@ -366,6 +366,9 @@ button{
     flex-direction: column;
     gap: 20px;
   }
+  section{
+    max-width: 90%;
+  }
   pre code{
     margin: auto;
     padding: auto;
@@ -434,6 +437,7 @@ https://snipboard.io/JzOZ2Q.jpg gnorp -
 https://snipboard.io/B2FZ79.jpg rifle
 https://snipboard.io/BctiuL.jpg runner -
 https://snipboard.io/tX8Li2.jpg ballooon
+
 
 
 */
