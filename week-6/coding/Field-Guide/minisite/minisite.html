@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Reset Findings</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1 id="heading"> CSS Notes: Normalize and Reset</h1>
+        <h2>Landon Umland</h2>
+    </header>
+    <main class="container">
+        <nav id="questions">
+            <h2>Critcal Quesitons</h2>
+            <ul>
+                <li><a href="#q-1"> Why Use a Reset</a></li>
+                <li><a href="#q-2">Why Use Josh's Over Erics</a></li>
+                <li><a href="#q-3">How Are They Used</a></li>
+                <li><a href="#q-4">What is a CSS Boilerplate</a></li>
+                <li><a href="#q-5">Why Use a Boilerplate</a></li>
+                <li><a href="#q-6">How is Normalize Different Than Reset</a></li>
+                <li><a href="#raw">Raw Notes</a></li>
+            </ul>
+        </nav> 
+            <div class="content">
+            <section id="q-1">
+                <h2>Why Use a Reset</h2>
+                    <p>
+                        The initial problem that CSS resets solved was that no 2 browsers had the same CSS defaults. 
+                        This made it very difficult to create a webpage that looked identical between multiple browsers.
+                        There were tiny differences in each browser, such as slightly different margins or padding, text that was underlined or italicized, etc. 
+                        Having a reset equalizes all of the differences on different browsers so that each browser is a blank page for the CSS rules to be applied to, making them the same across almost every browser.
+                    </p>
+                </section>
+
+            <section id="q-2">
+                <h2>Why Use Josh's Over Erics</h2>
+                    <p>
+                        Josh considers Eric's reset to be outdated, and needed modernized. The main issue that resetting fixed
+                        isn't all that common or egregious in modern browsers. Josh's also was more suited for 
+                        differnt styles and aesthetics and was unopinionated with its reset. 
+                    </p>
+                </section>
+
+            <section id="q-3">
+                <h2>How Are They Used</h2>
+                <p>
+                    Resets and Normalize are both used by linking them as stylesheets. Similar to a normal CSS stylesheet. 
+                    They are applied before the styles file to take priority for the reset or the normalization of the browsers
+                    imbedded defaults.
+                </p>
+                </section>
+
+            <section id="q-4">
+                <h2>What is a CSS Boilerplate</h2>
+                <p>
+                    A CSS boiler plate is similar to a reset or normalize, but it isn't a separate file. The boilerplate
+                    is placed at the top of your main stylesheet and sets a base ruleset/setting for the rest of the file, such as 
+                    using "*" to select all elements and set the margins and padding to 0.
+                    
+                </p>
+                </section>
+
+            <section id="q-5">
+                <h2>Why Use a Boilerplate</h2>
+                <p>
+                    Boilerplates are great at saving time, and unifying elements across pages. They are easy to paste into a CSS file
+                    to set the base rules for the page, so you don't have to individually change them every time you make a new page. 
+                    They also help keep your rules consistent between pages you create for a site.
+                </p>
+                </section>
+
+            <section id="q-6">
+                <h2>How is Normalize Different Than Reset</h2>
+                <p>
+                    Normalize is different than reset because instead of resetting every default browser element, it only
+                    affects some, and leaves some defaults. This way, the page is uniform, but it also saves a bit of time 
+                    by keeping some default rules you plan on using. Reset completely starts you from a blank slate, while 
+                    normalize is like a preset to work from.
+                </p>
+                </section>
+
+    <section id="raw">
+        <p>
+            Reset  Reasoning <br>
+
+                All browsers have defaults but none share the exact same
+                The initial problem that CSS resets solved was that no 2 browsers had the same CSS defaults. 
+                This made it very difficult to create a webpage that looked identical between multiple browsers.
+                There were tiny differences in each browser, such as slightly different margins or padding, text that was underlined or italicized, etc. 
+                Having a reset equalizes all of the differences on different browsers so that each browser is a blank page for the CSS rules to be applied to, making them the same across almost every browser. 
+
+                Internet Explorer back in the day was a large example of this, as it didn't even recognize a lot of CSS rules. 
+                This made IE annoying to work with, so people started to work with other browsers such as Firefox or Safari. 
+
+                There are dozens of small changes and adjustments between them
+
+                Used on a RESET stylesheet 
+                </p>
+                <p>
+                Josh Comeau <br>
+
+                Josh thinks that Eerics is a long list and isn't vberu modernized 
+                His one is unopinionized and can be used for any style or aesthetic </p>
+                    <pre><code>
+                    /* 1. Use a more-intuitive box-sizing model */
+                    *, *::before, *::after {
+                    box-sizing: border-box;
+                    }
+                    /* 2. Remove default margin */
+                    * {
+                    margin: 0;
+                    }
+                    /* 3. Enable keyword animations */
+                    @media (prefers-reduced-motion: no-preference) {
+                    html {
+                        interpolate-size: allow-keywords;
+                    }
+                    }
+                    body {
+                    /* 4. Add accessible line-height */
+                    line-height: 1.5;
+                    /* 5. Improve text rendering */
+                    -webkit-font-smoothing: antialiased;
+                    }
+                    /* 6. Improve media defaults */
+                    img, picture, video, canvas, svg {
+                    display: block;
+                    max-width: 100%;
+                    }
+                    /* 7. Inherit fonts for form controls */
+                    input, button, textarea, select {
+                    font: inherit;
+                    }
+                    /* 8. Avoid text overflows */
+                   p, h1, h2, h3, h4, h5, h6 {
+                   overflow-wrap: break-word;
+                    }
+                   /* 9. Improve line wrapping */
+                   p {
+                    text-wrap: pretty;
+                    }
+                    h1, h2, h3, h4, h5, h6 {
+                    text-wrap: balance;
+                    }
+                    /*
+                    10. Create a root stacking context
+                    */
+                    #root, #__next {
+                    isolation: isolate;
+                    }
+                        </code></pre>
+                    <p>
+                Josh's model 
+
+                In modern days, browsers are better at taking CSS rules and applying them faithfully. Resets aren't as important as browsers aren't as egregious.
+                HE believes that some default stuylings are nice to have 
+                Josh liked to apply defaults for all (*) elements, such as margin 0
+
+                using interpolate size properties you can do small animations without JS (only on CHrome/Edge)
+                Transform: scale is usually better if available 
+
+
+                A CSS boilerplate is unlike a reset because it just sets the main page to have a uniform format rather than resetting every element to 0.\
+                normalize.css is different than a reset, because it doesn't strip all defaults away, rather it keeps the useful ones, and provides some uniform settings aswell.
+
+                CSS boilerplates help save time and help with efficiency by setting a blank canvas to work with, so you don't have to manually enter in basic rules or changes. They are also lightweight and ensure consistent 
+                elements. 
+
+                For resets and normalize you link a file |rel stylesheet href name| before your styles file. 
+             </p>
+        </section>
+        </div>
+    </main>
+    
+</body>
+    <footer>
+        <ul>
+            <h3>Sources</h3>
+            <li><a href="https://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/"> Eric Meyer's "Reset Reasoning"</a></li>
+            <li><a href="https://www.joshwcomeau.com/css/custom-css-reset/"> Josh Comeau's "A Modern CSS Reset"</a></li>
+            <li><a href="https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/">Jeff Starr's "Killer Collection of CSS Resets"</a></li>
+        </ul>
+        <div class="button">
+            <button><a href="https://lumland03.github.io/DESN368-code-design-workspace-lu/index.html"> View Portfolio</a></button>
+            </div>
+    </footer>
+</html>
