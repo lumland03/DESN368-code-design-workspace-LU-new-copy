@@ -1,0 +1,623 @@
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+
+.saira{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    width: 100;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* START OF CODE */
+
+
+
+
+header{
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    background-color: #5F688C;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    z-index: 1000;
+
+
+}
+.trapezoid{
+    margin: auto;
+    margin-bottom: -2%;
+    width: 80%;
+    height: 20%;
+    background: #23231a;
+    clip-path: polygon(5% 0, 95% 0, 80% 100%, 20% 100%);
+    z-index: 1000;
+}
+nav{
+    padding: 1rem;
+    padding-bottom:1.5rem;
+}
+button{
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    
+}
+
+
+button a{
+    text-decoration: none;
+    font-family: "Saira", sans-serif;
+}
+
+button a:hover {
+  margin: auto;
+  padding: 2rem;
+  
+  border-radius: 5px;
+  transition: 200ms;
+  
+}
+
+
+#image-carousel #logo{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 25%;
+    margin: auto;
+    width: 40%;
+    z-index: 10;
+}
+
+
+#buynow{
+    z-index: 10;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    right: 20%;
+    margin: auto;
+    width: 20%;
+    background-color: #FA9549;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+h1{
+    font-family: "audiowide", sans-serif;
+    font-size: 48px;
+    color:#d5dfe5;
+}
+
+
+body{
+    background-color: #23231a;
+    margin: 0;
+     margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    
+    
+}
+section{
+    max-width: 100%;
+    margin: auto;
+    background-color: #FA9549;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+    
+
+}
+.page{
+    background-color: #D5DFE5 ;
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 3%;
+    
+}
+#video-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 5%;
+    
+    
+    
+
+}
+iframe{
+    max-width: 1000px;
+    max-height: auto;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 0;
+    border-radius: 1%;
+    
+}
+#vidp {
+    font-family: "Saira", sans-serif;
+    font-size: 2rem;
+    margin: auto;
+    margin-left: 10%;
+    padding: 0;
+    
+
+}
+
+h2{
+    font-family: "audiowide", sans-serif;
+    font-size: 2rem;
+}
+
+#trap-1 h2{
+    text-align: center;
+    width: 20%;
+    z-index: 1;
+}
+
+/* -------------------------------------------*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #23231a;
+    font-family: "Saira", sans-serif; 
+    font-size: 1.5rem;
+ 
+}
+#about p{
+    
+    padding: 5%;
+    padding-top: 3%;
+    max-width: 45%;
+    margin-left: 5rem;
+
+}
+
+.page img{
+    margin: auto;
+    max-width: 30%;
+    height: auto;
+    margin-top: 10rem;
+
+}
+
+#about-page{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+#trap-2 h2{
+    text-align: center;
+    width: 40%;
+    z-index: 1;
+    color: #ECf8f8;
+}
+
+
+
+
+
+/* -------------------------------------------*/
+
+
+
+
+#features table{
+    margin-bottom: 7rem;
+    
+}
+
+.diff{
+    background-color: #cacfd6;
+}
+
+
+#feat-page p{
+    margin: 5%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+}
+#trap-3 h2{
+    text-align: center;
+    width: 60%;
+    z-index: 1;
+    
+}
+
+
+
+
+/* -------------------------------------------*/
+
+
+
+#buy{
+    background-color: #23231a;
+    margin-bottom: 6rem;
+    
+    
+}
+
+
+#buy-page{
+    background: none;
+    margin: auto;
+}
+
+#buy button{
+    margin: auto;
+    padding: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+
+
+}
+
+#buy-page img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#buy-page .smaller{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#trap-4 h2{
+    text-align: center;
+    width: 80%;
+    z-index: 1;
+    color: #ECf8f8;
+}
+
+
+
+/* -------------------------------------------*/
+
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 3rem auto;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background-color: #ECf8f8;
+
+}
+thead th{ 
+    font-family: "Saira", sans-serif;
+    font-size: 1.5rem;
+}
+
+th, td{
+    padding: 1.5rem;
+    border: .15rem #5F688C solid;
+
+}
+tbody tr{
+    font-family: "Saira", sans-serif;
+    font-size: 1.4rem;
+
+}
+
+
+
+#specs tbody tr:nth-child(odd) {
+  background-color: #cacfd6;
+}
+caption {
+  caption-side: top;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  font-family: "audiowide", sans-serif;
+  margin: auto;
+  margin-top: 1rem;
+  
+}
+
+/* Trapezoid File Shapes */
+
+    
+
+
+#trap-1{
+    margin: auto;
+    margin-top: -2.44%;
+    width: 100%;
+    height: 100%;
+    background: #FA9549;
+    clip-path: polygon(5% 0, 15% 0, 20% 100%, 0 100%);
+    z-index: 1;
+    
+
+}
+#trap-2{
+    margin: auto;
+    margin-top: -2.44%;
+    width: 100%;
+    height: 100%;
+    background: #23231a;
+    clip-path: polygon(15% 0, 25% 0, 30% 100%, 10% 100%);
+    
+    
+}
+#trap-3{
+    margin: auto;
+     margin-top: -2.44%;
+    width: 100%;
+    height: 100%;
+    background: #FA9549;
+    clip-path: polygon(25% 0, 35% 0, 40% 100%, 20% 100%);
+    
+}
+#trap-4{
+    margin: auto;
+     margin-top: -2.44%;
+    width: 100%;
+    height: 100%;
+    background: #23231a;
+    clip-path: polygon(35% 0, 45% 0, 50% 100%, 30% 100%);
+    
+}   
+
+
+footer{
+    background-color: #5F688C;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+form {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+
+/* CAROUSEL SETTINGS *\ 
+
+I HAVE NO IDEA HOW THIS WORKS 
+IF YOU READ THIS TRAVIS, I BIT OFF WAY MORE THAN I CAN CHEW AND REGRET MY DECISIONS AS OF SATURDAY, 11/29/25, 6:06PM
+
+
+
+HAVE A GOOD DAY
+
+
+
+
+
+
+
+
+
+*/
+
+.carousel{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    max-width: 100%;
+    
+}
+.carousel > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+
+}
+.slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    transition-delay: 0ms;
+    z-index: 1;
+
+}
+
+.carousel-button{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 5rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: #CADFD6BF;
+    cursor: pointer;
+    border-radius: 10px;
+    
+
+
+}
+.carousel-button:hover,
+.carousel-button:focus{
+    color: white;
+}
+.carousel-button:focus{
+    outline: 1px solid black;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+.carousel-button.prev{
+    left: 1rem;
+}
+.carousel-button.next{
+    right: 1rem;
+}
+
+
+
+
+/* MEDIA CONTROLS STUFF THINGS OR SOMETHING TO MAKE SURE ITS EASY TO SEE WHEN I SCROLL */
+
+
+@media  {
+    
+}
+
+
+
+
+
+
+
+
