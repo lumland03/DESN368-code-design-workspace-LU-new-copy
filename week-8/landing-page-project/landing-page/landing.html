@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     
         <nav>
         <button><a href="#image-carousel">Home</a></button>
-        <button><a href="#movie"> Video</a></button>
+        <button><a href="#movie"> Trailer</a></button>
         <button><a href="#about">About</a></button>
         <button><a href="#features">Features</a></button>
         <button><a href="#specs">Requirements</a></button>
@@ -29,9 +29,10 @@
     <main class="container">
 
     <section id="image-carousel" aria-label="Gameplay Photos">
-
+        <div id="hero">
         <img id="logo" src="images/satisfactory logo.webp" alt="Satisfactory Logo">
         <button id="buynow"><a href="#buy">Buy Now!</a></button>
+        </div>
 
         <div class="carousel" data-carousel>
             <button class="carousel-button prev" data-carousel-button="prev">&#10094;</button>
@@ -71,7 +72,7 @@
 
         <section id="movie">
             <div id="trap-1">
-            <h2>Video</h2>
+            <h2>Trailer</h2>
             </div>
             
             <div class="page" id="video-page">
@@ -84,6 +85,7 @@
                     frameborder="0"
                     allowfullscreen>
                 </iframe>
+                
                     <div id="vidp">
                     <p> Satisfactory Version 1.0 Release Trailer:</p>
                     </div>
@@ -132,10 +134,10 @@
             <h2>Buy</h2>
             </div>
             <div class="page" id="buy-page">
-                <button><img src="images/playstation.png" alt="Playstation Logo">PlayStation</button>
-                <button><img class="smaller" src="images/Xbox.png" alt="Xbox Logo">Xbox</button>
-                <button><img class="smaller" src="images/steam.png" alt="Steam Logo">Steam</button>
-                <button><img src="images/epicgames.png" alt="Epic Games Logo">Epic Games</button>
+                <a href="https://store.playstation.com/en-us/concept/10008447/"> <button><img src="images/playstation-cropped.png" alt="Playstation Logo">PlayStation</button></a>
+                <a href="https://www.xbox.com/en-US/games/store/satisfactory/9npr2cg6s95q"> <button><img class="smaller" src="images/Xbox.png" alt="Xbox Logo">Xbox</button></a>
+                <a href="https://store.steampowered.com/app/526870/Satisfactory/"> <button><img class="smaller" src="images/steam.png" alt="Steam Logo">Steam</button></a>
+                <a href="https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fstore%2Fen-US%2Fproduct%2Fsatisfactory%2Fhome&client_id=875a3b57d3a640a6b7f9b4e883463ab4"> <button><img src="images/epicgames-cropped.png" alt="Epic Games Logo">Epic Games</button></a>
             </div>
         </section>
 
