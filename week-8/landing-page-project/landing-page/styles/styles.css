@@ -173,7 +173,6 @@ button a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50%;
-    background-color: none;
     top: 20%;
     left:25%;
     right:25%;
@@ -277,7 +276,6 @@ section{
 
 iframe{
     max-width: 1000px;
-    max-height: auto;
     margin: auto;
     margin-bottom: 3%;
     margin-top: 3%;
@@ -441,7 +439,7 @@ h2{
 }
 
 #buy-page button:hover{
-    transform: scale(2rem);
+    transform: scale(2);
 }
 
 #buy-page a:hover{
@@ -834,7 +832,6 @@ section{
 
 iframe{
     max-width: 1000px;
-    max-height: auto;
     margin: auto;
     margin-bottom: 3%;
     margin-top: 3%;
