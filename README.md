@@ -1,117 +1,94 @@
-# DESN368 - Web Design 1 Portfolio
+<!-- 
+  HOW TO USE THIS TEMPLATE
+  1. Replace all [bracketed text] with your information
+  2. Delete this comment block before submitting
+  3. Update the links to point to YOUR repository
+  
+  NOTE: This version uses markdown tables. 
+  Table syntax: | Column 1 | Column 2 |
+  Separator:    |----------|----------|
+-->
+
+# [Your Name] — Web Design Portfolio
+
+**DESN368: Code + Design 1 | Fall 2025**  
+Eastern Washington University  
+Instructor: Travis Masingale
+
+---
 
 ## About This Repository
 
-This repository documents my learning journey in Web Design 1 (DESN368) during [Quarter/Year]. Here you'll find my projects, experiments, and exercises as I learn HTML, CSS, and the fundamentals of web design.
+This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
-## Course Overview
-
-- **Instructor:** Travis Masingale
-- **Institution:** EWU
-- **Term:** Fall25
+- **[View Live Portfolio](https://[your-username].github.io/[your-repo-name]/)**
+- **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
 
 ---
 
-## Week 1 - Introduction to the Internet and the Web
+## Design Direction
 
-**Topics Covered:**
-- What is the Internet vs. the World Wide Web
-- How browsers work
-- Understanding IP addresses, DNS, and URLs
-- History of the web
+For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
-**Key Takeaways:**
-The Internet is a physical thing, and not just a cloud based system.
-Browsers are like traffic highways that transfer requests to different browsers/IP addresses.
+| Element | Choice |
+|---------|--------|
+| Header Font | [Font Name] |
+| Body Font | [Font Name] |
+| Primary Color | `#000000` |
+| Accent Color | `#000000` |
+| Background | `#000000` |
 
-**Files:**
-- Newspaper practice html
-- Lost pet practice html
-- favorite band practice html
-
+**[View Figma File](https://www.figma.com/file/[your-figma-link])**
 
 ---
 
-## Week 2 - HTML basics
+## Featured Projects
 
-**Topics Covered:**
-- Basic HTML
-- Basic Figma designs
-
-**Key Takeaways:**
-HTML is kinda fun. 
-Its super easy to make typos and get frustrated trying to find them.
-Its a lot to remember.
-
-**Projects/Exercises:**
--Created simple web pages based off of codedex exercises. 
-
-**Files:**
-- recipe site with css style sheet
+| Project | Description | Live Site | Process |
+|---------|-------------|-----------|---------|
+| The Recipe | [1-sentence description] | [View →](./week-XX/recipe/) | [Figma](link) |
+| Tribute Site | [1-sentence description] | [View →](./week-XX/tribute/) | [Figma](link) |
+| Field Guide | [1-sentence description] | [View →](./week-XX/field-guide/) | [Figma](link) |
+| Product Landing Page | [1-sentence description] | [View →](./week-XX/landing-page/) | [Figma](link) |
 
 ---
 
-## Week 3 - CSS basics
+## Technical Skills Demonstrated
 
-**Topics Covered:**
-- More indepth HTML
-- Started CSS basics
-- continued work on figma designs
-
-**Key Takeaways:**
-I like CSS more than HTML so far.
-The formatting is a lot easier for my brain.
-There is a huge amount of different stuff to remember.
-
-**Projects/Exercises:**
-- Added CSS to our previous recipe site.
-- Created a tribute page in Figma
-- Completed a semantics challenge
-
-**Files:**
-- wk3 css-foundations-lvl-1
+- Semantic HTML5 (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`)
+- CSS Layout (Flexbox / Grid)
+- Responsive Design with `@media` queries
+- CSS Custom Properties (variables)
+- CSS Transitions for interaction
+- Version Control with Git & GitHub
 
 ---
 
-## Week 4 - Repository Organization & Documentation
+## Archive
 
-**Topics Covered:**
-- Repository organization
-- Writing effective documentation
-- Markdown formatting
-- Created tribute page html and css
-
-**Key Takeaways:**
-Learned how to clean up the repository, and got a bit more comfortable with github.
-
-**Tasks Completed:**
-- ✓ Organized repo with week folders
-- ✓ Archived original README
-- ✓ Created new portfolio-style README
+- **[Course Log](./archive/course-log.md)** — Detailed weekly documentation
+- **[Learning Log](./learning-log.html)** — Index of all exercises and projects
 
 ---
 
-## Project 1: Tribute Page
+## Credits & Citations
 
-**Subject:** Keanu Reeves
+### Assets
+- [List any images, icons, or assets you didn't create]
 
-**Links:**
-- https://www.figma.com/design/I3J82KnHY3ZYk62PDFY18I/tribute-keanu-reeves-LU-f25?node-id=0-1&p=f&t=C3EATZvSDDrxvpl7-0
-- https://lumland03.github.io/DESN368-code-design-workspace-lu/week-4/tribute-page/tribute-page-umland.html
+### Tutorials & Resources
+- [Any tutorials or Stack Overflow threads that helped]
 
-## Resources
+### AI Assistance
+- [If used: "Used Claude for debugging CSS grid in Week 6"]
+- [If none: "No AI assistance used"]
 
-- [Link to course materials]
-- [Link to helpful websites or tutorials you found]
-- [Any other resources you want to remember]
+---
 
-## Tools Used
+## Reflection
 
-- VS Code
-- Firefox Developer Edition
-- GitHub
-- [Other tools]
+[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
 
---- 
+---
 
-*This repository is part of my coursework for DESN368 - Web Design 1*
+<sub>© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.</sub>
