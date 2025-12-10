@@ -1,13 +1,3 @@
-<!-- 
-  HOW TO USE THIS TEMPLATE
-  1. Replace all [bracketed text] with your information
-  2. Delete this comment block before submitting
-  3. Update the links to point to YOUR repository
-  
-  NOTE: This version uses markdown tables. 
-  Table syntax: | Column 1 | Column 2 |
-  Separator:    |----------|----------|
--->
 
 # Landon Umland — Web Design Portfolio
 
@@ -66,7 +56,7 @@ For my portfolio, I pursued an aesthetic that I have no name for. I liked the to
 
 ## Archive
 
-- **[Course Log](https://github.com/lumland03/DESN368-code-design-workspace-lu/blob/main/Archive/course-log.md))** — Detailed weekly documentation
+- **[Course Log](https://github.com/lumland03/DESN368-code-design-workspace-lu/blob/main/Archive/course-log.md)** — Detailed weekly documentation
 - **[Learning Log](https://github.com/lumland03/DESN368-code-design-workspace-lu/blob/main/learning-log.html)** — Index of all exercises and projects
 
 ---
