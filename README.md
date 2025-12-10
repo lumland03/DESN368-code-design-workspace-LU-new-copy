@@ -21,24 +21,24 @@ Instructor: Travis Masingale
 
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
-- **[View Live Portfolio](https://[your-username].github.io/[your-repo-name]/)**
+- **[View Live Portfolio](https://lumland03.github.io/DESN368-code-design-workspace-lu/)**
 - **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
 
 ---
 
 ## Design Direction
 
-For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
+For my portfolio, I pursued an aesthetic that I have no name for. I liked the topographic background, and the dark teal colors.
 
 | Element | Choice |
 |---------|--------|
-| Header Font | [Font Name] |
-| Body Font | [Font Name] |
-| Primary Color | `#000000` |
-| Accent Color | `#000000` |
-| Background | `#000000` |
+| Header Font | Josefin Sans |
+| Body Font | Lexend |
+| Primary Color | `#003147` |
+| Accent Color | `#315A5E` |
+| Background | `#00111A` |
 
-**[View Figma File](https://www.figma.com/file/[your-figma-link])**
+**[View Figma File](https://www.figma.com/design/t9GcZKsGZKVS4vxEERdVZn/Portfolio-Draft?node-id=0-1&p=f&t=vgJniqz0fAdZe1O1-0)**
 
 ---
 
@@ -46,10 +46,10 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 | Project | Description | Live Site | Process |
 |---------|-------------|-----------|---------|
-| The Recipe | [1-sentence description] | [View →](./week-XX/recipe/) | [Figma](link) |
-| Tribute Site | [1-sentence description] | [View →](./week-XX/tribute/) | [Figma](link) |
-| Field Guide | [1-sentence description] | [View →](./week-XX/field-guide/) | [Figma](link) |
-| Product Landing Page | [1-sentence description] | [View →](./week-XX/landing-page/) | [Figma](link) |
+| The Recipe | A basic beef stew recipe (and website) | [View →](https://lumland03.github.io/DESN368-code-design-workspace-lu/week-2/Recipe/recipe.html) |
+| Tribute Site | A tribute site to Keanu Reeves | [View →](https://lumland03.github.io/DESN368-code-design-workspace-lu/week-4/tribute-page/tribute-page-umland.html) | [Figma](https://www.figma.com/design/I3J82KnHY3ZYk62PDFY18I/tribute-keanu-reeves-LU-f25?t=20Mp9cUUpSJWospj-0) |
+| Field Guide | A field guide to a niche PC game called (the) Gnorp Apalogue | [View →](https://lumland03.github.io/DESN368-code-design-workspace-lu/week-6/coding/Field-Guide/guide.html) | [Figma](https://www.figma.com/design/BOG4GFJbgPJtL8HMA6Ez6g/Project-3.1-Lumland?t=20Mp9cUUpSJWospj-0) |
+| Product Landing Page | A product landing page for Satisfactory, one of my favorite games. | [View →](https://lumland03.github.io/DESN368-code-design-workspace-lu/week-8/landing-page-project/landing-page/landing.html)) | [Figma](https://www.figma.com/design/qyfGL0jt11B1v2un3deDax/Landing-Page-Draft?node-id=0-1&p=f&t=20Mp9cUUpSJWospj-0) |
 
 ---
 
@@ -74,14 +74,13 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 ## Credits & Citations
 
 ### Assets
-- [List any images, icons, or assets you didn't create]
+- Created by me. 
 
 ### Tutorials & Resources
-- [Any tutorials or Stack Overflow threads that helped]
+- https://www.youtube.com/watch?v=4uymZfcqTr8 - Tutorial for background. 
 
 ### AI Assistance
-- [If used: "Used Claude for debugging CSS grid in Week 6"]
-- [If none: "No AI assistance used"]
+- None (my copilot ran out and I couldn't be bothered to use another AI) 
 
 ---
 
@@ -91,4 +90,4 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-<sub>© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.</sub>
+<sub>© 2025 Landon Umland. Built for DESN368 at Eastern Washington University.</sub>
