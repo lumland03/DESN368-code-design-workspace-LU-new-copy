@@ -533,13 +533,13 @@ section p{
 }
 
 #recipe{
-    background-image: url("images/recipe-tb.png");
+    background-image: url("../images/recipe-tb.png");
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
     background-repeat: no-repeat;
 }
 #tribute{
-    background-image: url("images/tribute-tb.png");
+    background-image: url("../images/tribute-tb.png");
     object-fit: fill;
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
@@ -547,14 +547,14 @@ section p{
     background-position: 50%;
 }
 #guide{
-    background-image: url("images/guide-tb.png");
+    background-image: url("../images/guide-tb.png");
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
     background-position: 60%;
     background-repeat: no-repeat;
 }
 #landing {
-    background-image: url("images/landing-tb.png");
+    background-image: url("../images/landing-tb.png");
     border: .5rem var(--dark-teal) solid;
     background-size: 200%;
     background-repeat: no-repeat;
@@ -650,6 +650,7 @@ footer p{
 
   
 }
+
 
 
 
