@@ -22,7 +22,7 @@ Instructor: Travis Masingale
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
 - **[View Live Portfolio](https://lumland03.github.io/DESN368-code-design-workspace-lu/)**
-- **[View Learning Log](https://[your-username].github.io/[your-repo-name]/learning-log.html)** — Weekly progress & exercises
+- **[View Learning Log](https://lumland03.github.io/DESN368-code-design-workspace-lu/learning-log.html)** — Weekly progress & exercises
 
 ---
 
@@ -86,7 +86,7 @@ For my portfolio, I pursued an aesthetic that I have no name for. I liked the to
 
 ## Reflection
 
-[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
+[→ Read Full Reflection on Portfolio Site](lumland03.github.io/DESN368-code-design-workspace-lu/reflection/reflection.html)
 
 ---
 
