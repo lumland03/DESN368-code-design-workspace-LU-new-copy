@@ -66,7 +66,7 @@ For my portfolio, I pursued an aesthetic that I have no name for. I liked the to
 
 ## Archive
 
-- **[Course Log](./archive/course-log.md)** — Detailed weekly documentation
+- **[Course Log](https://github.com/lumland03/DESN368-code-design-workspace-lu/blob/main/Archive/course-log.md))** — Detailed weekly documentation
 - **[Learning Log](./learning-log.html)** — Index of all exercises and projects
 
 ---
